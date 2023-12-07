@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+
+.coffee-about-image{
+    height: 400px;
+    width: 400px;
+    transition: all ease 1s;
+} 
+.coffee-about-image:hover{
+    height: 450px;
+    width: 450px;
+}
+.main{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 100px 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffe099;
+}
+
+.nav-bar{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAEDCD;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.lsidebar{
+    padding: 10px;
+}
+.navbar-logo{
+    width: 50px;
+    height: 50px;
+}
+.navbar-logo-and-name{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-name{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a-navbar{
+    color: black;
+    border: 1px solid white;
+    border-radius: 10%;
+    padding: 5px;
+    flex: wrap;
+    transition: all 1s ease;
+}
+.a-navbar:hover{
+    background-color: #432818;
+    color: white;
+}
+.tittle{
+    grid-row: 2/3;
+    grid-column: 1/3;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: justify;
+    padding: 10PX;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    text-decoration: underline;
+}
+.image{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    
+}
+.description{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    padding: 30px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Details{
+    color: black;
+    transition: all 1s ease;
+}
+.Details:hover{
+    color: white;
+    background: #432818;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.learn-more{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all 1s ease;
+    background-color: #dbc58fb8;
+    cursor: pointer;
+}
+.learn-more:hover{
+    color: white;
+    background-color: #432818;
+}
