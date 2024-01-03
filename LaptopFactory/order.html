@@ -1,0 +1,66 @@
+<?php
+if (isset($_SESSION['user_data'])) {
+    $loggedInUser = $_SESSION['user_data']; // Access the username stored in the session
+    $jsonString = json_encode($loggedInUser);
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank youu</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(67, 67, 67);
+            font-family: Georgia, 'Times New Roman', Times, serifs;
+        }
+        .container{
+            height: 400px;
+            width: 700px;
+            padding: 10px;
+            border: 3px solid black;
+            border-radius: 10px;
+            box-shadow: 0 0 10px;
+            background-color: rgb(177, 177, 177);
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+        }
+        button{
+            height: 50px;
+            width: 200px;
+            border: 3px solid black;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            transition: all ease 1s;
+        }
+        button a {
+            text-decoration: none;
+            color: white;
+        }
+        button:hover{
+            background-color: rgb(158, 158, 158);
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>
+            CHECK OUT NOW, RECEIVE LATER!
+            Embedded in our community, we're more than just a laptop store – we're a hub for local tech enthusiasts. With a commitment to support our neighborhood, we offer not just quality devices but also workshops and events, fostering a tech-savvy environment where everyone can thrive.
+        </p>
+        <span>Thank youuu! </span>
+        <span>"Your order will be shipped</span>
+        <button><a href="index.php">Order Again</a></button>
+    </div>
+</body>
+<script src="Function/mainOneFunction.js"></script>
+</html>

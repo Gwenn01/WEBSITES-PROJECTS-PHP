@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: trebuchet MS;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 200px 1fr;
+    background-image: url('IMAGES/Logo/bgDevelopers.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.pictures{
+    border: 3px solid black;
+    box-shadow: 0 0 10px black;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.developers-pictures{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    transition: all ease 1s;
+}
+.developers-pictures:hover{
+    height: 110px;
+    width: 110px;
+}
+.description{
+    border: 1px solid black;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.names{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px black;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-size: 50px;
+    text-align: justify;
+    text-shadow: 0 0 10px black;
+}
+.socials{
+    display: flex;
+    gap: 100px
+}
+.socials .image{
+    height: 50px;
+    width: 50px;
+}
+
+/*developers */
+#princess{
+    background-image: url('IMAGES/Developers/princess.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#arnel{
+    background-image: url('IMAGES/Developers/arnel.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#francess{
+    background-image: url('IMAGES/Developers/francess.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#ashley{
+    background-image: url('IMAGES/Developers/ashley.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#charlene{
+    background-image: url('IMAGES/Developers/charlene.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
