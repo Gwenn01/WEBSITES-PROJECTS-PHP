@@ -1,0 +1,33 @@
+.shopping-cart{
+    background-color: rgb(204, 204, 204);
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+table th{
+    border: 1px solid black;
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+td{
+    text-align: center;
+}
+#update_quantity{
+    width: 30px;
+}
+#update, #delete, #deleteALL{
+    padding: 10px 30px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+#update{
+    padding: 8px 20px;
+    background-color: orange;
+}
+#update:hover, #delete:hover, #deleteALL:hover{
+    color: gray;
+}

@@ -1,0 +1,27 @@
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.products{
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#addToCart{
+    padding: 10px 30px;
+    background-color: rgb(0,132,255);
+    border: none;
+    color: white;
+}
+#addToCart:hover{
+    color: gray;
+}
+#quantity{
+    width: 30px;
+}

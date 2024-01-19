@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Trebuchet MS';
+}
+/*REGISTER AND LOGIN DESIGN*/
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+}
+.register-form, .login-form{
+    border: 2px solid black;
+    box-shadow: 0 0 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}   
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    padding: 10px 10px ;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    gap: 10px;
+}
+#register, #login{
+    padding: 10px 30px;
+    background-color: rgb(0,132,255);
+    border: none;
+    color: white;
+}
+#register:hover, #login:hover{
+    color: gray;
+}
+span a{
+    color: red;
+    text-decoration: none;
+}
+span a:hover{
+    text-decoration: underline;
+}
+/*SHOPPING CART DESIGN*/
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.accounts{
+    margin: 20px;
+    width: 350px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.btn{
+    padding: 10px 10px;
+    height: 40px;
+    width: 100px;
+}
+#btn-login, #btn-register, #btn-logout{
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+#btn-login{
+    background-color: rgb(0,132,255);
+}
+#btn-register{
+    background-color: rgb(202, 133, 4);
+}
+#btn-logout{
+    background-color: rgb(219, 7, 7);
+}
+#btn-login:hover, #btn-register:hover, #btn-logout:hover{
+    color: gray;
+}
+/**/
+

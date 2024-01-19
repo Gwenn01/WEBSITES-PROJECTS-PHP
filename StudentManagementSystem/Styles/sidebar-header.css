@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: trebuchet MS;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+.sidebar{
+    background-color: rgb(56, 56, 56);
+    grid-column: 1/2;
+}
+.student-details, .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    border-bottom: 1px solid rgb(78, 78, 78);
+}
+.student-details img, .profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.main{
+    grid-column: 2/3;
+}
+.functions{
+    margin-top: 20px;
+}
+.icon{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid rgb(78, 78, 78);
+    transition: all ease 1s;
+}
+.icon:hover{
+    background-color: gray;
+}
+.icon-img{
+    height: 30px;
+    width: 30px;
+}
+a{
+    text-decoration: none;
+    color: white    ;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.form-search{
+    background-color: white;
+    width: 600px;
+    height: 40px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.form-search input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.form-search button{
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    letter-spacing: 2px;
+    background-color: gray;
+    cursor: pointer;
+    transition: all ease 1s;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.form-search button:hover{
+    background-color: rgb(16, 16, 16);
+    color: white;
+}
+.form-search i{
+    align-self: center;
+    padding: 5px 5px;
+}
+.form-search i img{
+    height: 40px;
+    width: 40px;
+}
