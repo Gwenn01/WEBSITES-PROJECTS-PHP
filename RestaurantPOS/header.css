@@ -1,0 +1,53 @@
+body{
+    font-family: trebuchet MS;
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2d42;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.logo h2{
+    font-size: 30px;
+    color: #fb5607;
+}
+.navbar{
+    margin: 20px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navbar ul li{
+    text-align: center;
+    border: 2px solid black;
+    list-style: none;
+    padding: 10px 20px;
+    height: 30px;
+    width: 150px;
+    background-color: #4361ee;
+    border-radius: 10px;
+    transition: all ease 1s;
+}
+.navbar ul li:hover{
+    background-color: #0096c7;
+    color: black;
+}
+.navbar ul a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
